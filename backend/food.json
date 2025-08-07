@@ -1,0 +1,123 @@
+[
+    {
+      "_id": "67e9601aaf125d14a4b99c10",
+      "foodName": "Rice",
+      "vegType": "VEG",
+      "available": true,
+      "quantity": 25,
+      "cookedTime": "2025-03-28T12:00:00.000Z",
+      "expiryTime": "2025-03-29T12:00:00.000Z",
+      "wastageReason": "Special Event",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-28T12:30:00.000Z"
+    },
+    {
+      "_id": "67e9602baf125d14a4b99c11",
+      "foodName": "Chicken Biryani",
+      "vegType": "NON-VEG",
+      "available": true,
+      "quantity": 20,
+      "cookedTime": "2025-03-27T14:00:00.000Z",
+      "expiryTime": "2025-03-28T14:00:00.000Z",
+      "wastageReason": "Over Cooking",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-27T14:30:00.000Z"
+    },
+    {
+      "_id": "67e9603caf125d14a4b99c12",
+      "foodName": "Dal",
+      "vegType": "VEG",
+      "available": false,
+      "quantity": 15,
+      "cookedTime": "2025-03-26T10:00:00.000Z",
+      "expiryTime": "2025-03-26T16:00:00.000Z",
+      "wastageReason": "Semester Examination",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-26T10:30:00.000Z"
+    },
+    {
+      "_id": "67e9604daf125d14a4b99c13",
+      "foodName": "N/A",
+      "vegType": "NON-VEG",
+      "available": true,
+      "quantity": 12,
+      "cookedTime": "2025-03-25T11:00:00.000Z",
+      "expiryTime": "2025-03-25T15:00:00.000Z",
+      "wastageReason": "Others",
+      "wasteFoodType": "Plate Waste",
+      "createdAt": "2025-03-25T11:15:00.000Z"
+    },
+    {
+      "_id": "67e9605caf125d14a4b99c14",
+      "foodName": "Puri",
+      "vegType": "VEG",
+      "available": true,
+      "quantity": 18,
+      "cookedTime": "2025-03-24T09:00:00.000Z",
+      "expiryTime": "2025-03-24T13:00:00.000Z",
+      "wastageReason": "Special Event",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-24T09:15:00.000Z"
+    },
+    {
+      "_id": "67e9606daf125d14a4b99c15",
+      "foodName": "Veg Biryani",
+      "vegType": "VEG",
+      "available": true,
+      "quantity": 30,
+      "cookedTime": "2025-03-23T13:00:00.000Z",
+      "expiryTime": "2025-03-24T13:00:00.000Z",
+      "wastageReason": "Over Cooking",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-23T13:30:00.000Z"
+    },
+    {
+      "_id": "67e9607eaf125d14a4b99c16",
+      "foodName": "Egg Curry",
+      "vegType": "NON-VEG",
+      "available": false,
+      "quantity": 10,
+      "cookedTime": "2025-03-22T18:00:00.000Z",
+      "expiryTime": "2025-03-23T00:00:00.000Z",
+      "wastageReason": "Semester Examination",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-22T18:30:00.000Z"
+    },
+    {
+      "_id": "67e9608faf125d14a4b99c17",
+      "foodName": "N/A",
+      "vegType": "VEG",
+      "available": true,
+      "quantity": 8,
+      "cookedTime": "2025-03-21T12:00:00.000Z",
+      "expiryTime": "2025-03-21T15:00:00.000Z",
+      "wastageReason": "Others",
+      "wasteFoodType": "Plate Waste",
+      "createdAt": "2025-03-21T12:15:00.000Z"
+    },
+    {
+      "_id": "67e9609aaf125d14a4b99c18",
+      "foodName": "Fish Curry",
+      "vegType": "NON-VEG",
+      "available": true,
+      "quantity": 14,
+      "cookedTime": "2025-03-20T10:00:00.000Z",
+      "expiryTime": "2025-03-20T16:00:00.000Z",
+      "wastageReason": "Special Event",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-20T10:30:00.000Z"
+    },
+    {
+      "_id": "67e960a1af125d14a4b99c19",
+      "foodName": "Paneer Curry",
+      "vegType": "VEG",
+      "available": true,
+      "quantity": 20,
+      "cookedTime": "2025-03-19T09:00:00.000Z",
+      "expiryTime": "2025-03-19T13:00:00.000Z",
+      "wastageReason": "Over Cooking",
+      "wasteFoodType": "Fresh Food",
+      "createdAt": "2025-03-19T09:15:00.000Z"
+    }
+  ]
+  

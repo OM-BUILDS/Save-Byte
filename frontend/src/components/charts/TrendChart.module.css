@@ -1,0 +1,49 @@
+/* Main Chart Container */
+.chartContainer {
+  width: 48%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f9ff, #eaf4f4);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header for trend indicator */
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Trend Container */
+.trendContainer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Trend Text */
+.trend {
+  color: #28a745;
+}
+
+/* Chart Wrapper with Smooth Transition */
+.chartWrapper {
+  width: 100%;
+
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out;
+}
+
+/* No Data Message */
+.noData {
+  text-align: center;
+  color: #dc3545;
+  font-size: 16px;
+  margin-top: 20px;
+}

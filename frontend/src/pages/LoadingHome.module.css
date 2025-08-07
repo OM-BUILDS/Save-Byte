@@ -1,0 +1,153 @@
+/* LoadingHome.module.css */
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA000 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.plateWrapper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+.plate {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.food {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+}
+
+.vegetable, .meat, .grain {
+    position: absolute;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+.vegetable {
+    width: 40px;
+    height: 40px;
+    background: #8BC34A;
+    top: 20%;
+    left: 15%;
+}
+
+.meat {
+    width: 50px;
+    height: 50px;
+    background: #FF5722;
+    top: 45%;
+    right: 15%;
+    border-radius: 15px;
+    animation-delay: 0.5s;
+}
+
+.grain {
+    width: 30px;
+    height: 30px;
+    background: #FFC107;
+    bottom: 20%;
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.steam {
+    position: absolute;
+    top: 15%;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steam span {
+    display: block;
+    width: 8px;
+    height: 50px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 4px;
+}
+
+.steam1 {
+    animation: steamRise 2s infinite;
+}
+
+.steam2 {
+    animation: steamRise 2s 0.3s infinite;
+}
+
+.title {
+    color: #2E7D32;
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    animation: textGlow 2s ease-in-out infinite;
+}
+
+.progress {
+    width: 200px;
+    height: 4px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 2px;
+    margin-top: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #2E7D32;
+    animation: progressLoad 4s linear forwards;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+@keyframes steamRise {
+    0% { transform: translateY(0) scale(0.5); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(-100px) scale(1.2); opacity: 0; }
+}
+
+@keyframes textGlow {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
+
+@keyframes progressLoad {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+}

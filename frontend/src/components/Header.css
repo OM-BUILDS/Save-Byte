@@ -1,0 +1,121 @@
+.dashboard-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+.dashboard-header .blue-text{
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    font-size: 3rem;
+    color: blueviolet;
+    font-weight: 600;
+    border: 2px solid gray;
+}
+
+.dashboard-header .red-text{
+    font-size: 3rem;
+    color: red;
+}
+
+.dashboard-header i{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.right-side-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+  }
+  .notification-container {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  /* 🔔 Bell Icon */
+  .notification {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  
+  
+  .notification:hover {
+    transform: scale(1.1);
+  }
+
+
+  
+  /* 🔴 Notification Counter */
+  .notification-counter{
+    position: absolute;
+    top: -0.9rem;
+    right: 0.2rem;
+    color: red;
+    font-size: 1rem;
+    font-weight: 700;
+    
+  }
+  
+  /* 📌 Notification Dropdown */
+  .notification-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: white;
+    width: 700px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    z-index: 1000;
+    background-color: rgb(241, 237, 237);
+  }
+
+  @keyframes fadeInNotification {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  
+  .notification-item {
+    padding: 8px 12px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 1rem;
+    cursor: pointer;
+   font-weight: 700;
+    margin-bottom: 5px;
+    color: red;
+    animation: fadeInNotification 0.4s ease forwards;
+  }
+  
+  .notification-item:hover {
+    background: #f5f5f5;
+  }
+
+  .notification-time {
+    color: #888;
+    font-size: 0.75rem;
+  }
+  
+  /* 📌 View All Button */
+  .view-all-btn {
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 4px;
+  }
+  
+  .view-all-btn:hover {
+    background: #0056b3;
+  }
+  

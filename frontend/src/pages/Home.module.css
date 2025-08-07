@@ -1,0 +1,55 @@
+.cardsWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.servicesContainer h1{
+   font-weight: 700;
+   font-size: 4rem;
+   letter-spacing: 0.15rem; 
+   text-decoration-color: #8dbc2e;
+   text-underline-offset: 0.75rem;
+   text-decoration-line: underline;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.eachService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.eachService img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: 1px solid gray;
+}
+
+.eachService p{
+    font-size: 1.25rem;
+    font-weight: 550;
+
+}

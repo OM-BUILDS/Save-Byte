@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem 1rem 10rem;
+    font-weight: 550;
+
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+ nav a:hover{
+    color: red;
+}
+
+

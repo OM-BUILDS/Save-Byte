@@ -1,0 +1,28 @@
+ .buttonContainer{
+    padding: 0.1rem;
+    border-radius: 0.25rem;
+    transition: all 0.25s;
+ }
+ 
+ 
+ .darkButton{
+    width: 7rem;
+    height: 3rem;
+    background-color: #545352;
+    font-size: 1rem;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    transition: all 0.25s;
+ }
+
+ .darkButton:hover{
+    padding-left: 1rem;
+ }
+
+ .buttonContainer:hover{
+    background-color: rgb(201, 193, 193);
+ }
+
+ 

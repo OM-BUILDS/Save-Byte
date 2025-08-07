@@ -1,0 +1,95 @@
+/* Container for all cards */
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem 0rem 1rem 2rem;
+    background: linear-gradient(135deg, #f0f9ff, #eaf4f4);
+    border-radius: 1rem;
+  }
+  
+  .card {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  /* Hover effect on card */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .iconContainer {
+    font-size: 2rem;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: rgb(56, 192, 81);
+    background-color: rgb(186, 182, 182);
+    border-radius: 50%;
+    font-weight: 300;
+  }
+
+  .cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 1rem;
+  }
+
+  .totalQuantityContainer, .thisWeekQuantityContainer,.percentageChangeContainer{
+    display: flex;
+    gap: 0.25rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .totalQuantityContainer h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: gray;
+  }
+
+.totalQuantity,.thisWeekQuantity{
+border: 1px solid gray;
+font-weight: 550;
+font-size: 1.1rem;
+color:rgb(151, 69, 234);
+padding: 0.25rem;
+
+}
+
+
+.thisWeekQuantityContainer h4{
+    font-size: 1rem;
+    font-weight: 600;
+    color: gray;
+  }
+
+  .percentageChangeContainer span{
+    color: red;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .percentageChangeContainer p{
+    color: gray;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+ 
+
+
+ 

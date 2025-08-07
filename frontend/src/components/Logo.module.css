@@ -1,0 +1,13 @@
+.logoContainer p{
+    font-size: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+.logoContainer Span{
+    color: red;
+}
+
+.logoContainer img{
+    width: 10rem;
+    height: 10rem;
+}
