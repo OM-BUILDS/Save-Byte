@@ -1,7 +1,5 @@
 # Save Byte - Hostel Food Waste Management System
 
-![Save Byte Logo](src/assets/savebytelogo.png)
-
 **Save Byte** is a full-stack web application developed as a final year B.Tech CSE project by a team of three students. It is designed to tackle the issue of food waste in hostels by creating a platform that connects hostels with surplus food to NGOs and Animal Welfare Centers (AWCs).
 
 ---
@@ -131,7 +129,3 @@ The database consists of five main collections:
 * **donations**: Links food items to the hostels that donated them.
 * **transactions**: Records the details of each food transaction, including the donor, recipient, status, and OTP.
 * **notifications**: Stores all notifications sent to users.
-
----
-
-## Project Structure
